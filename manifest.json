@@ -1,10 +1,10 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Bookmark Title Manager",
   "version": "1.0",
   "description": "Toggle bookmark titles between visible and hidden states",
   "permissions": ["bookmarks", "storage"],
-  "browser_action": {
+  "action": {
     "default_popup": "popup.html",
     "default_icon": {
       "48": "icons/icon-48.svg",
